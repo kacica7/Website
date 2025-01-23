@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(rgb(10, 7, 50), rgb(123, 206, 224));
+}
+
+.main-header {
+  text-align: center;
+  font-size: 75px;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: rgb(235, 235, 235);
+}
+
+.second-header {
+  text-align: center;
+  font-size: large;
+  font-family: "Poppins";
+  margin-top: 5px;
+  color: rgb(235, 235, 235);
+}
+
+.aboutme {
+  font-family: "Poppins";
+  margin-bottom: 7px;
+  text-align: right;
+}
+
+.paragraph {
+  font-weight: bold;
+  font-family: "Poppins";
+  text-align: right;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.layout_contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  background-color: rgb(235, 235, 235);
+  border: 3px;
+  padding: 15px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  border-radius: 7px;
+  align-self: flex-start;
+}
+
+.rightbox {
+  background-color: rgb(235, 235, 235);
+  border: 3px;
+  padding: 15px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  border-radius: 7px;
+  max-width: 79.6%;
+  margin-left: auto;
+}
+
+.tableofcontents {
+  background-color: rgba(235, 235, 235, 0.75);
+  border: 3px;
+  display: flex;
+  text-align: left;
+  padding: 15px;
+  border-radius: 7px;
+  margin-left: 10px;
+  flex: 0 0 200px;
+}
+
+.header_left {
+  font-family: "Poppins";
+  margin-bottom: 7px;
+  text-align: left;
+}
+
+.list {
+  font-family: "Poppins";
+}
+
+.listright {
+  font-family: "Poppins";
+  font-weight: bold;
+  text-align: right;
+  color: rgb(31, 31, 168);
+  margin-bottom: 5px;
+}
