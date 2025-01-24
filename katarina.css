@@ -95,3 +95,21 @@ body {
   color: rgb(31, 31, 168);
   margin-bottom: 5px;
 }
+
+.images {
+  width: 500px;
+  height: auto;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+
+.imageslayout {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.imagedescription {
+  font-family: "Poppins";
+  font-weight: bold;
+}
